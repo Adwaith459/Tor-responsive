@@ -1,0 +1,135 @@
+
+/* -------NAVBAR SECTION CSS------- */
+.tor-logo{
+    width: 5em;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    background-color: #59316b;
+}
+.nav-link{
+    color: #fff;
+    font-size: 0.9rem;
+}
+.btn{
+    font-size: 0.9rem;
+}
+.nav-button{
+    background: transparent;
+    border: 1px solid;
+    color: #fff;
+    border-radius: 4px;
+}
+/* --------HEADER SECTION CSS------- */
+.header-btn{
+    background: transparent;
+    border: 1px solid;
+    color: #fff;
+    border-radius: 4px;
+}
+.header .header1,.header2{
+    font-size: 5.25rem;
+    font-weight: 200;
+}
+.header .header3{
+    font-size: 1.55rem;
+}
+
+/* -------MIDDLE SECTION OR SECTIONS IN CSS--------- */
+
+.container{
+    padding: 0% 9%;
+}
+.block-tracker{
+    width: 25em;
+}
+.section-text h3{
+    color: #7d4698;
+    font-size: 1.5rem;
+}
+.section-p-text{
+    font-size: 1.2rem;
+}
+.about-us p,span{
+    font-size: 4.5rem;
+    line-height: 5rem;
+    font-weight: 200;
+    color: #484848;
+}
+.about-us h6{
+    color: #7d4698;
+}
+@media screen and (max-width: 768px) {
+  
+  
+    .about-us p {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+    .about-us p,span{
+        font-size: 2rem;
+        line-height: 3rem;
+        
+        
+    }
+  }
+
+  /* -------FOOTER SECTION CSS------ */
+.foo-container{
+    background-color: #7d4698;
+}
+footer button{
+    background: transparent;
+    border: 1px solid;
+    color: #fff;
+    border-radius: 4px;
+}
+.foo-image{
+    width: 40rem;
+}
+.missions{
+    padding: 0 20%;
+
+}
+.mission-text{
+    line-height: 2rem;
+}
+.foo-content ul{
+    list-style-type: none;
+}
+
+.missions ul{
+    list-style-type: none;
+    line-height: 1.8rem;
+}
+.subtext-p{
+    line-height: 1.9rem;
+}
+.foo-newsletter{
+    padding: 0 20%;
+    line-height: 2.4rem;
+}
+.foo-newsletter button{
+    border: 1px solid #292828;
+    border-radius: 4px;
+    background-color: #0a0a0a;
+    opacity: 50%;
+    color: #fff;
+}
+.mission button{
+    border-radius: 4px;
+    background: yellow;
+    color: #fff;
+
+}
+@media screen and (max-width: 768px) {
+
+    .hide-on-phone{
+        display: none;
+    }
+    
+}
+    
